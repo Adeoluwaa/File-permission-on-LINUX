@@ -1,0 +1,33 @@
+# File Permission with LINUX
+
+## Objective
+
+To use Linux commands to modify file permissions, ensuring secure access and proper management of sensitive data and system files.
+
+## Project description
+
+I was tasked with updating the file permissions for certain files and directories within the projects directory. The permissions do not currently reflect the level of authorization that should be given. Checking and updating these permissions will help keep their system secure. To complete this task, I performed the following tasks:
+
+
+### Skills Learned
+
+File Permission Management: Learning to change file permissions on Linux requires understanding of file ownership (user and group), file access modes (read, write, execute), and the use of chmod, chown, and chgrp commands. It also involves grasping the concept of file permissions for different user categories (owner, group, others) and applying these permissions securely to protect sensitive files and directories.
+
+### Command Used
+
+chmod: This command is used to change the permissions (read, write, execute) of a file or directory. For example, chmod u+x file.txt adds execute permission for the file's owner.
+
+chown: Used to change the ownership of a file or directory. For instance, chown user:group file.txt changes the owner and group of file.txt.
+
+chgrp: This command changes the group ownership of a file or directory. For example, chgrp group file.txt changes the group of file.txt to the specified group.
+
+## Steps
+Check file and directory details.
+To check file permission for /home/researcher2/projects , I used: ls -l while in the projects directory.
+
+
+
+
+Example below.
+
+*Ref 1: Network Diagram*
